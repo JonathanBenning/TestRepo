@@ -1,0 +1,6 @@
+library(datasets)
+data(iris)
+View(iris)
+library(GGally)
+library(ggplot2)
+ggpairs(iris, mapping=ggplot2::aes(color = Species))
